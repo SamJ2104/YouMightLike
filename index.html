@@ -148,7 +148,7 @@
                         'Content-Type': 'application/json'
                     },
                     body: JSON.stringify({
-                        messages: [{ role: 'user', content: "Please recommend similar things if you liked: " + userInput + ". Use double asterisks to bold the names of things." }],
+                        messages: [{ role: 'user', content: "Please recommend similar things if you liked: " + userInput + ". Use double asterisks to bold the names of things. Please give a list of all the recomendations given with links after the text." }],
                         model: 'llama3-8b-8192'
                     })
                 });
